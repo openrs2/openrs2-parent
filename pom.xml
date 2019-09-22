@@ -206,6 +206,24 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>versions-maven-plugin</artifactId>
+        <dependencies>
+          <!-- XXX(gpe): this is a circular dependency (so it isn't ideal), but
+            it happens to work as versions-maven-plugin doesn't need to run
+            during the initial openrs2-parent or openrs2-version-rules
+            builds -->
+          <dependency>
+            <groupId>dev.openrs2</groupId>
+            <artifactId>openrs2-version-rules</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+          </dependency>
+        </dependencies>
+        <configuration>
+          <rulesUri>classpath:///version-rules.xml</rulesUri>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 
