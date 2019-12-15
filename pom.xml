@@ -50,6 +50,7 @@
   </distributionManagement>
 
   <properties>
+    <kotlin.code.style>official</kotlin.code.style>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
