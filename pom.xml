@@ -72,6 +72,17 @@
 
   <repositories>
     <repository>
+      <id>michaelbull</id>
+      <name>Michael Bull</name>
+      <url>https://dl.bintray.com/michaelbull/maven/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
       <id>openrs2</id>
       <name>OpenRS2</name>
       <url>https://repo.openrs2.dev/repository/openrs2/</url>
