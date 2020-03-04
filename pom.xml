@@ -17,8 +17,8 @@
   </organization>
   <licenses>
     <license>
-      <name>GNU General Public License v3.0 or later</name>
-      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+      <name>ISC License</name>
+      <url>https://opensource.org/licenses/ISC</url>
     </license>
   </licenses>
 
