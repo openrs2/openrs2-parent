@@ -1,6 +1,6 @@
 # OpenRS2 Parent
 
-[![Build status badge](https://build.openrs2.dev/buildStatus/icon?job=openrs2-parent&build=lastCompleted)](https://build.openrs2.dev/job/openrs2-parent/)
+[![Build status badge](https://build.openrs2.dev/api/badges/openrs2/openrs2-parent/status.svg)](https://build.openrs2.dev/openrs2/openrs2-parent/)
 
 ## License
 
