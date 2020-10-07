@@ -294,9 +294,9 @@
             during the initial openrs2-parent or openrs2-version-rules
             builds -->
           <dependency>
-            <groupId>dev.openrs2</groupId>
+            <groupId>org.openrs2</groupId>
             <artifactId>openrs2-version-rules</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
           </dependency>
         </dependencies>
         <configuration>
